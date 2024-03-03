@@ -1,0 +1,21 @@
+---
+const title1 = Astro.props
+---
+
+
+<section>
+  <slot />
+</section>
+
+
+<style>
+  section {
+    margin: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+
+</style>

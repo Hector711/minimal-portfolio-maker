@@ -1,0 +1,14 @@
+---
+const title = Astro.props
+---
+
+
+<section>
+  {title && <h2>{title}</h2>}
+  <slot />
+</section>
+
+
+<style is:global>
+  
+</style>
