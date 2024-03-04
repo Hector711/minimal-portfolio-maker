@@ -12,6 +12,8 @@
     "paths": {
       "@/components/*": ["./src/components/*"],
       "@/sections/*": ["./src/components/sections/*"],
+      "@/styles/*": ["./src/styles/*"],
+      "@/variables": ["./src/styles/variables"],
       "@/*": ["./src/*"]
     }
   },

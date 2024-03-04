@@ -3,19 +3,42 @@ import MainSection from '@/components/MainSection.astro';
 ---
 
 <MainSection >
-  <h1>Minimal</h1>
-  <h2>Simple, dynamic, elegant.</h2>
-  <h3>Create your minimalist Portfolio Website.</h3>
+  <h1>Minimal Maker</h1>
+  <h2>Create your Minimalist Portfolio Website</h2>
+  <h3>Simple | Dynamic | Elegant </h3>
+  <a href="">Get Started</a>
 </MainSection>
 
 <style>
+* {
+    /* border: 1px solid ; */
+    text-align: center;
+
+  }
+
   h1 {
-    font-size: 5rem;
+    font-size: 5.5rem;
+    font-weight: 700;
+  }
+
+  h3 {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    font-weight: 500;
   }
 
   h2 {
-    font-size: 2rem;
+    font-weight: 400;
+    font-size: 1.8rem;
+
   }
 
+  a {
+    font-size: 1rem;
+    border: 1px solid gray;
+    border-radius: var(--radius);
+    padding:1rem;
+    text-transform: uppercase;
+  }
   
 </style>
